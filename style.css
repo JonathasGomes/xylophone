@@ -9,7 +9,7 @@
 
 body {
     box-sizing: border-box;
-    background-color: #25A1D6;
+    background: linear-gradient(80deg, rgb(0, 128, 128) 8.5%, rgb(174, 206, 100) 118.2%);
     /* display: flex;
     align-items: center; */
     display: grid;
@@ -51,8 +51,6 @@ span {
 .vermelho {
     height: 300px;
     background: rgb(237,73,65);
-    background: linear-gradient(180deg, rgba(237,73,65,1) 27%, rgba(217,140,34,1) 100%);
-    /* border: 1px solid #9E302B; */
     border-right: 3px solid #9E302B;
     border-bottom: 5px solid #9E302B;
 }
@@ -60,16 +58,13 @@ span {
 .laranja {
     height: 280px;
     background-color: #FFAF29;
-    background: linear-gradient(180deg, rgba(255, 175, 41,1) 27%, rgba(255, 239, 1,1) 100%);
     border-right: 3px solid #AA741B;
     border-bottom: 5px solid #AA741B;
-    color: #FF6929;
 }
 
 .amarelo {
     height: 260px;
     background-color: #FFEF01;
-    background: linear-gradient(180deg, rgba(230, 211, 0, 1) 27%, rgba(184, 235, 6 ,1) 100%);
     border-right: 3px solid #AB9E03;
     border-bottom: 5px solid #AB9E03;
     
@@ -78,7 +73,6 @@ span {
 .verde-claro {
     height: 240px;
     background-color: #B8EB06;
-    background: linear-gradient(180deg, rgba(184, 235, 6, 1) 27%, rgba(108, 202, 45,1) 100%);
     border-right: 3px solid #7A9C04;
     border-bottom: 5px solid #7A9C04;
 }
@@ -86,7 +80,6 @@ span {
 .verde-escuro {
     height: 220px;
     background-color: #6CCA2D;
-    background: linear-gradient(180deg, rgba(108, 202, 45, 1) 27%, rgba(132, 206, 238,1) 100%);
     border-right: 3px solid #48861E;
     border-bottom: 5px solid #48861E;
 }
@@ -94,7 +87,6 @@ span {
 .azul-claro {
     height: 200px;
     background-color: #84CEEE;
-    background: linear-gradient(180deg, rgba(132, 206, 238, 1) 27%, rgba(55, 89, 205,1) 100%);
     border-right: 3px solid #58899E;
     border-bottom: 5px solid #58899E;
 }
@@ -102,7 +94,6 @@ span {
 .azul-escuro {
     height: 180px;
     background-color: #3759CD;
-    background: linear-gradient(180deg, rgba(55, 89, 205, 1) 27%, rgba(154, 148, 241,1) 100%);
     border-right: 3px solid #243B88;
     border-bottom: 5px solid #243B88;
 }
@@ -110,7 +101,6 @@ span {
 .roxo {
     height: 160px;
     background-color: #9A94F1;
-    background: linear-gradient(180deg, rgba(154, 148, 241, 1) 27%, rgba(154, 148, 241,1) 100%);
     border-right: 3px solid #6662A0;
     border-bottom: 5px solid #6662A0;
 }
@@ -121,8 +111,7 @@ span {
 
 .madeira {
     position: relative;
-    height: 34px;
-    width: 694px;
+
     background-color: #FAE3C8;
     z-index: 1;
     border-radius: 4px;
@@ -134,20 +123,17 @@ span {
 }
 
 .superior {
-    bottom: 220px;
-    transform: rotate(3deg);
+    bottom: 178px;
+    height: 50px;
+    width: 715px;
 }
 
-.inferior {
-    bottom: 140px;
-    transform: rotate(-4deg);
-}
 
 .esquerda {
-    bottom: 344px;
-    left: -47px;
+    bottom: 330px;
+    left: -60px;
     height: 260px;
-    width: 40px;
+    width: 50px;
     -webkit-box-shadow: 5px 5px 5px -4px rgba(82,49,11,1);
     -moz-box-shadow: 5px 5px 5px -4px rgba(82,49,11,1);
     box-shadow: 5px 5px 5px -4px rgba(82,49,11,1);
@@ -156,11 +142,21 @@ span {
 
 .direita {
     height: 140px;
-    width: 40px;
-    left: 698px;
-    bottom: 544px;
+    width: 50px;
+    left: 702px;
+    bottom: 530px;
     -webkit-box-shadow: -4px -2px 5px -4px rgba(82,49,11,1);
     -moz-box-shadow: -4px -2px 5px -4px rgba(82,49,11,1);
     box-shadow: -4px -2px 5px -4px rgba(82,49,11,1);
     background-image: linear-gradient(to right, #fae3c8, #f7dab8, #f4d2a9, #f1c999, #eec08a);
+}
+
+.detalhe {
+    background: linear-gradient(130deg, #f5f7fa 0%, #c3cfe2 100%);
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    width: 18px;
+    height: 18px;
+    border-radius: 50px;
 }
