@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #25A1D6;
+    /* display: flex;
+    align-items: center; */
+    display: grid;
+    place-items: center;
+    height: 100vh; 
+}
+
+.container {
+    margin: auto;
+}
+
+.teclas {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.tecla {
+    width: 70px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 2;
+    -webkit-box-shadow: 6px 5px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 5px 5px -5px rgba(0,0,0,0.75);
+    box-shadow: 6px 5px 5px -5px rgba(0,0,0,0.75);
+}
+
+span {
+    padding: 20% 0;
+    letter-spacing: 1.5px;
+    text-transform: lowercase;
+    font-size: 16px;
+}
+
+.vermelho {
+    height: 300px;
+    background: rgb(237,73,65);
+    background: linear-gradient(180deg, rgba(237,73,65,1) 27%, rgba(217,140,34,1) 100%);
+    /* border: 1px solid #9E302B; */
+    border-right: 3px solid #9E302B;
+    border-bottom: 5px solid #9E302B;
+}
+
+.laranja {
+    height: 280px;
+    background-color: #FFAF29;
+    background: linear-gradient(180deg, rgba(255, 175, 41,1) 27%, rgba(255, 239, 1,1) 100%);
+    border-right: 3px solid #AA741B;
+    border-bottom: 5px solid #AA741B;
+    color: #FF6929;
+}
+
+.amarelo {
+    height: 260px;
+    background-color: #FFEF01;
+    background: linear-gradient(180deg, rgba(230, 211, 0, 1) 27%, rgba(184, 235, 6 ,1) 100%);
+    border-right: 3px solid #AB9E03;
+    border-bottom: 5px solid #AB9E03;
+    
+}
+
+.verde-claro {
+    height: 240px;
+    background-color: #B8EB06;
+    background: linear-gradient(180deg, rgba(184, 235, 6, 1) 27%, rgba(108, 202, 45,1) 100%);
+    border-right: 3px solid #7A9C04;
+    border-bottom: 5px solid #7A9C04;
+}
+
+.verde-escuro {
+    height: 220px;
+    background-color: #6CCA2D;
+    background: linear-gradient(180deg, rgba(108, 202, 45, 1) 27%, rgba(132, 206, 238,1) 100%);
+    border-right: 3px solid #48861E;
+    border-bottom: 5px solid #48861E;
+}
+
+.azul-claro {
+    height: 200px;
+    background-color: #84CEEE;
+    background: linear-gradient(180deg, rgba(132, 206, 238, 1) 27%, rgba(55, 89, 205,1) 100%);
+    border-right: 3px solid #58899E;
+    border-bottom: 5px solid #58899E;
+}
+
+.azul-escuro {
+    height: 180px;
+    background-color: #3759CD;
+    background: linear-gradient(180deg, rgba(55, 89, 205, 1) 27%, rgba(154, 148, 241,1) 100%);
+    border-right: 3px solid #243B88;
+    border-bottom: 5px solid #243B88;
+}
+
+.roxo {
+    height: 160px;
+    background-color: #9A94F1;
+    background: linear-gradient(180deg, rgba(154, 148, 241, 1) 27%, rgba(154, 148, 241,1) 100%);
+    border-right: 3px solid #6662A0;
+    border-bottom: 5px solid #6662A0;
+}
+
+.madeiras {
+    position: absolute;
+}
+
+.madeira {
+    position: relative;
+    height: 34px;
+    width: 694px;
+    background-color: #FAE3C8;
+    z-index: 1;
+    border-radius: 4px;
+    left: -12px;
+    -webkit-box-shadow: -4px 4px 5px -4px rgba(82,49,11,1);
+    -moz-box-shadow: -4px 4px 5px -4px rgba(82,49,11,1);
+    box-shadow: -4px 4px 5px -4px rgba(82,49,11,1);
+    background-image: linear-gradient(to bottom, #fae3c8, #f8dbb9, #f6d3aa, #f4cb9b, #f2c38c);
+}
+
+.superior {
+    bottom: 220px;
+    transform: rotate(3deg);
+}
+
+.inferior {
+    bottom: 140px;
+    transform: rotate(-4deg);
+}
+
+.esquerda {
+    bottom: 344px;
+    left: -47px;
+    height: 260px;
+    width: 40px;
+    -webkit-box-shadow: 5px 5px 5px -4px rgba(82,49,11,1);
+    -moz-box-shadow: 5px 5px 5px -4px rgba(82,49,11,1);
+    box-shadow: 5px 5px 5px -4px rgba(82,49,11,1);
+    background-image: linear-gradient(to left, #fae3c8, #f7dab8, #f4d2a9, #f1c999, #eec08a);
+}
+
+.direita {
+    height: 140px;
+    width: 40px;
+    left: 698px;
+    bottom: 544px;
+    -webkit-box-shadow: -4px -2px 5px -4px rgba(82,49,11,1);
+    -moz-box-shadow: -4px -2px 5px -4px rgba(82,49,11,1);
+    box-shadow: -4px -2px 5px -4px rgba(82,49,11,1);
+    background-image: linear-gradient(to right, #fae3c8, #f7dab8, #f4d2a9, #f1c999, #eec08a);
+}
