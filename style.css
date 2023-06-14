@@ -12,13 +12,13 @@ body {
     background: linear-gradient(80deg, rgb(0, 128, 128) 8.5%, rgb(174, 206, 100) 118.2%);
     /* display: flex;
     align-items: center; */
-    display: grid;
-    place-items: center;
-    height: 100vh; 
 }
 
 .container {
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .teclas {
@@ -123,15 +123,15 @@ span {
 }
 
 .superior {
-    bottom: 178px;
+    top: 200px;
     height: 50px;
-    width: 715px;
+    width: 748px;
 }
 
 
 .esquerda {
-    bottom: 330px;
-    left: -60px;
+    top: 46px;
+    left: -38px;
     height: 260px;
     width: 50px;
     -webkit-box-shadow: 5px 5px 5px -4px rgba(82,49,11,1);
@@ -143,8 +143,8 @@ span {
 .direita {
     height: 140px;
     width: 50px;
-    left: 702px;
-    bottom: 530px;
+    left: 736px;
+    bottom: 156px;
     -webkit-box-shadow: -4px -2px 5px -4px rgba(82,49,11,1);
     -moz-box-shadow: -4px -2px 5px -4px rgba(82,49,11,1);
     box-shadow: -4px -2px 5px -4px rgba(82,49,11,1);
