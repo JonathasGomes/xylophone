@@ -1,6 +1,6 @@
 <h1 align="center">Xylophone</h1>
 
-![xylophone](https://github.com/JonathasGomes/xylophone/assets/67432436/87230ca0-bf00-4737-a696-7f29da8fdb7e)
+![xylophone](https://github.com/JonathasGomes/xylophone/assets/67432436/141fecdf-abe3-4160-9b72-865692d61030)
 
 ## 💻 Sobre o projeto
 
